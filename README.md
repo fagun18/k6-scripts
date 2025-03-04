@@ -220,7 +220,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## **More Details** 🔍
 
 For more details on performance testing, K6, and best practices, visit:  
-👉 [sqatesting.com](https://sqatesting.com)
+👉 [fagun.sqatesting.com](https://fagun.sqatesting.com/#home)
 
 ---
 
@@ -232,12 +232,12 @@ For more details on performance testing, K6, and best practices, visit:
 - Bug Bounty Hunter  
 - Security Analyst  
 
-![Mejbaur Bahar Fagun](https://th.bing.com/th/id/OIP.y2Bf6p-2HUsmEPR3NlaNdQHaHa?rs=1&pid=ImgDetMain)  
+<img src="https://th.bing.com/th/id/OIP.y2Bf6p-2HUsmEPR3NlaNdQHaHa?rs=1&pid=ImgDetMain" alt="Mejbaur Bahar Fagun" width="150" height="150" />  
 
 Connect with me:  
 - **GitHub**: [github.com/fagun18](https://github.com/fagun18)  
 - **LinkedIn**: [linkedin.com/in/mejbaur](https://www.linkedin.com/in/mejbaur/)  
-- **Website**: [sqatesting.com](https://sqatesting.com)  
+- **Website**: [fagun.sqatesting.com](https://fagun.sqatesting.com/#home)  
 
 ---
 
@@ -248,4 +248,3 @@ Explore the scripts, customize them for your needs, and start performance testin
 Happy Testing! 🚀
 
 ---
-
