@@ -9,7 +9,10 @@ Welcome to the **K6 Scripts Repository**! This repository contains a collection 
 2. [Why Use These Scripts?](#why-use-these-scripts-)
 3. [Script Categories](#script-categories-)
 4. [How to Use These Scripts](#how-to-use-these-scripts-)
-5. [Installation Guide](#installation-guide-)
+5. [How to Install K6](#how-to-install-k6-)
+   - [Windows](#installing-k6-on-windows)
+   - [Mac](#installing-k6-on-mac)
+   - [Kali Linux](#installing-k6-on-kali-linux)
 6. [Contributing](#contributing-)
 7. [License](#license-)
 8. [More Details](#more-details-)
@@ -85,26 +88,87 @@ Welcome to the **K6 Scripts Repository**! This repository contains a collection 
 
 ---
 
-## **Installation Guide** 📥
+## **How to Install K6** 📥
 
-### **1. Install K6**
-- **Windows**:
-  ```bash
-  choco install k6
-  ```
-- **Mac**:
-  ```bash
-  brew install k6
-  ```
-- **Linux**:
-  ```bash
-  sudo apt-get install k6
-  ```
+### **Installing K6 on Windows**
 
-### **2. Verify Installation**
-```bash
-k6 version
-```
+#### **Using Chocolatey (Package Manager)**:
+1. Open PowerShell as Administrator.
+2. Run the following command:
+   ```bash
+   choco install k6
+   ```
+3. Verify the installation:
+   ```bash
+   k6 version
+   ```
+
+#### **Manual Installation**:
+1. Download the Windows installer from the [official K6 website](https://k6.io/docs/get-started/installation/).
+2. Run the installer and follow the on-screen instructions.
+3. Add K6 to your system PATH if necessary.
+
+---
+
+### **Installing K6 on Mac**
+
+#### **Using Homebrew (Package Manager)**:
+1. Open Terminal.
+2. Run the following command:
+   ```bash
+   brew install k6
+   ```
+3. Verify the installation:
+   ```bash
+   k6 version
+   ```
+
+#### **Manual Installation**:
+1. Download the macOS binary from the [official K6 website](https://k6.io/docs/get-started/installation/).
+2. Move the binary to `/usr/local/bin`:
+   ```bash
+   mv k6 /usr/local/bin/
+   ```
+3. Verify the installation:
+   ```bash
+   k6 version
+   ```
+
+---
+
+### **Installing K6 on Kali Linux**
+
+#### **Using APT (Package Manager)**:
+1. Open Terminal.
+2. Add the K6 repository:
+   ```bash
+   sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys C5AD17C747E3415A3642D57D77C6C491D6AC1D69
+   echo "deb https://dl.k6.io/deb stable main" | sudo tee /etc/apt/sources.list.d/k6.list
+   sudo apt-get update
+   ```
+3. Install K6:
+   ```bash
+   sudo apt-get install k6
+   ```
+4. Verify the installation:
+   ```bash
+   k6 version
+   ```
+
+#### **Manual Installation**:
+1. Download the Linux binary from the [official K6 website](https://k6.io/docs/get-started/installation/).
+2. Make the binary executable:
+   ```bash
+   chmod +x k6
+   ```
+3. Move the binary to `/usr/local/bin`:
+   ```bash
+   sudo mv k6 /usr/local/bin/
+   ```
+4. Verify the installation:
+   ```bash
+   k6 version
+   ```
 
 ---
 
@@ -142,6 +206,20 @@ For more details on performance testing, K6, and best practices, visit:
 
 ---
 
+## **About the Author** 👨‍💻
+
+### **Mejbaur Bahar Fagun**  
+**Software Engineer in Test (L2) | Testing Team Lead @ DEVxHUB**  
+- Expert in Agile, Test Automation & Security  
+- Bug Bounty Hunter  
+- Security Analyst  
+
+Connect with me:  
+- **GitHub**: [github.com/fagun18](https://github.com/fagun18)  
+- **Website**: [sqatesting.com](https://sqatesting.com)  
+
+---
+
 ## **Get Started Today!** 🎉
 
 Explore the scripts, customize them for your needs, and start performance testing like a pro! If you find this repository helpful, don't forget to ⭐ **star** it and share it with your network.
@@ -150,10 +228,4 @@ Happy Testing! 🚀
 
 ---
 
-### **Connect with Us** 🌐
-- **GitHub**: [github.com/fagun18](https://github.com/fagun18)
-- **Website**: [sqatesting.com](https://sqatesting.com)
-
----
-
-This README is designed to be **professional**, **engaging**, and **easy to follow**. It includes emojis to make it visually appealing and provides all the necessary information for users to get started with your K6 scripts. 🎉
+This README is now updated with your profile and detailed installation instructions. It’s professional, visually appealing, and easy to follow. 🎉
