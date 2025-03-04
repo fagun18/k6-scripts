@@ -1,7 +1,3 @@
-Absolutely! Below is an **advanced and professional README file** for your GitHub repository ([github.com/fagun18/k6-scripts](https://github.com/fagun18/k6-scripts)). It includes emojis, clear instructions, and a professional tone to make it engaging and easy to understand.
-
----
-
 # **K6 Scripts Repository** 🚀
 
 Welcome to the **K6 Scripts Repository**! This repository contains a collection of **open-source, customizable, and advanced K6 scripts** for performance testing. Whether you're testing APIs, websites, databases, or WebSocket connections, these scripts are designed to help you simulate real-world load and identify performance bottlenecks.
