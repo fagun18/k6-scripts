@@ -6,22 +6,40 @@ Welcome to the **K6 Scripts Repository**! This repository contains a collection 
 
 ## **Table of Contents** 📚
 1. [What is K6?](#what-is-k6-)
-2. [Why Use These Scripts?](#why-use-these-scripts-)
-3. [Script Categories](#script-categories-)
-4. [How to Use These Scripts](#how-to-use-these-scripts-)
-5. [How to Install K6](#how-to-install-k6-)
+2. [Why Use K6?](#why-use-k6-)
+3. [Why Use These Scripts?](#why-use-these-scripts-)
+4. [Script Categories](#script-categories-)
+5. [How to Use These Scripts](#how-to-use-these-scripts-)
+6. [How to Install K6](#how-to-install-k6-)
    - [Windows](#installing-k6-on-windows)
    - [Mac](#installing-k6-on-mac)
    - [Kali Linux](#installing-k6-on-kali-linux)
-6. [Contributing](#contributing-)
-7. [License](#license-)
-8. [More Details](#more-details-)
+7. [Contributing](#contributing-)
+8. [License](#license-)
+9. [More Details](#more-details-)
+10. [About the Author](#about-the-author-)
 
 ---
 
 ## **What is K6?** 🤔
 
 [K6](https://k6.io/) is an open-source, developer-centric performance testing tool built for testing the performance of APIs, microservices, and websites. It is written in Go and uses JavaScript for scripting, making it highly efficient and easy to integrate into modern development workflows.
+
+---
+
+## **Why Use K6?** 🚀
+
+K6 stands out from other performance testing tools due to its **simplicity**, **scalability**, and **developer-friendly approach**. Below is a comparison table highlighting why K6 is a better choice:
+
+| Feature                | K6                          | JMeter                     | Gatling                    | Locust                     |
+|------------------------|-----------------------------|----------------------------|----------------------------|----------------------------|
+| **Ease of Use**        | JavaScript-based scripting  | XML-based configuration    | Scala-based scripting      | Python-based scripting     |
+| **Performance**        | High (built in Go)          | Moderate                   | High                       | Moderate                   |
+| **Scalability**        | Excellent                  | Good                       | Good                       | Good                       |
+| **CI/CD Integration**  | Seamless                   | Requires plugins           | Requires plugins           | Requires plugins           |
+| **Real-Time Metrics**  | Yes                        | No                         | Yes                        | Yes                        |
+| **Community Support**  | Strong                     | Strong                     | Moderate                   | Moderate                   |
+| **Cost**               | Free (open-source)          | Free (open-source)         | Free (open-source)         | Free (open-source)         |
 
 ---
 
@@ -214,8 +232,11 @@ For more details on performance testing, K6, and best practices, visit:
 - Bug Bounty Hunter  
 - Security Analyst  
 
+![Mejbaur Bahar Fagun](https://th.bing.com/th/id/OIP.y2Bf6p-2HUsmEPR3NlaNdQHaHa?rs=1&pid=ImgDetMain)  
+
 Connect with me:  
 - **GitHub**: [github.com/fagun18](https://github.com/fagun18)  
+- **LinkedIn**: [linkedin.com/in/mejbaur](https://www.linkedin.com/in/mejbaur/)  
 - **Website**: [sqatesting.com](https://sqatesting.com)  
 
 ---
@@ -228,4 +249,3 @@ Happy Testing! 🚀
 
 ---
 
-This README is now updated with your profile and detailed installation instructions. It’s professional, visually appealing, and easy to follow. 🎉
