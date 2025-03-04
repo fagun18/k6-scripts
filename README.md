@@ -1,5 +1,7 @@
 # **K6 Scripts Repository** 🚀
 
+![K6 in Action](https://raw.githubusercontent.com/grafana/k6-action/master/k6.gif)
+
 Welcome to the **K6 Scripts Repository**! This repository contains a collection of **open-source, customizable, and advanced K6 scripts** for performance testing. Whether you're testing APIs, websites, databases, or WebSocket connections, these scripts are designed to help you simulate real-world load and identify performance bottlenecks.
 
 ---
