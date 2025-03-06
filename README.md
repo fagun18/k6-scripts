@@ -222,7 +222,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## **More Details** 🔍
 
 For more details on performance testing, K6, and best practices, visit:  
-👉 [fagun.sqatesting.com](https://fagun.sqatesting.com/#home)
+👉 [Performance Testing with K6](https://www.sqatesting.com/2025/03/k6.html)
 
 ---
 
